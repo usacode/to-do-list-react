@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: purple; /* Set the background color */
+  color: white; /* Set the text color */
+}
+
+.todo-container {
+  width: 300px;
+}
+
+.todo-item {
+  margin-bottom: 8px;
+  border-radius: 8px; /* Add rounded corners */
+  padding: 8px 12px; /* Add padding for spacing */
+  background-color: rgba(255, 255, 255, 0.1); /* Add a semi-transparent background */
+}
+
+.add-button,
+.remove-button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 8px;
+  cursor: pointer;
+  border-radius: 5px; /* Add rounded corners to buttons */
+}
+
+.remove-button {
+  background-color: red;
+}
+
+.add-button:hover,
+.remove-button:hover {
+  opacity: 0.8;
+}
