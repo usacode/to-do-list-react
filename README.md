@@ -11,9 +11,9 @@ Each todo item in the list is accompanied by a "Remove" button, allowing users t
 The app features a purple background color, with blue buttons for adding new items and red buttons for removing items. Todo items are displayed in rounded boxes for a visually appealing layout.
 ## 4. Components: 
 The app is divided into separate components for better organization and modularity. These components include:
-App: The main component that renders the todo list and manages todo state.
-TodoList: Renders the list of todo items.
-TodoItem: Renders individual todo items.
+- App: The main component that renders the todo list and manages todo state.
+- TodoList: Renders the list of todo items.
+- TodoItem: Renders individual todo items.
 ## 5. CSS Styling: 
 The styling of the app is handled using a separate CSS file (styles.css), which defines the appearance and layout of the todo list and its components.
 ## 6. Dynamic Interaction: 
